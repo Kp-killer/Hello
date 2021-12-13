@@ -6,11 +6,10 @@ int main()
     int firstNumber, secondNumber, sumOfTwoNumbers;
     
     cout << "Enter two integers: ";
-    cin >> firstNumber >> secondNumber;
+     int a=10;
+    int b=20;
+   int sum=a+b;
+     cout << a << " + " <<  b << " = " << sum;     
 
-    sumOfTwoNumbers = firstNumber + secondNumber;
-
-    cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
-
-    return 0;
+   return 0;
 }
