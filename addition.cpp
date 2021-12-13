@@ -3,14 +3,11 @@ using namespace std;
 
 int main()
 {
-    int firstNumber, secondNumber, sumOfTwoNumbers;
+    int a,b,sum;
     
     cout << "Enter two integers: ";
-    cin >> firstNumber >> secondNumber;
-
-    sumOfTwoNumbers = firstNumber + secondNumber;
-
-    cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
+  sum=a+b;  
+    cout << a << " + " <<  b << " = " << sum;     
 
     return 0;
 }
